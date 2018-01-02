@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CameraSurfaceView">
+        <attr name="cameraWidth" format="integer"/>
+        <attr name="cameraHeight" format="integer"/>
+        <attr name="cameraID" format="integer"/>
+    </declare-styleable>
+</resources>

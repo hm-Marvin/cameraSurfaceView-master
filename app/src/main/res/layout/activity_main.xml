@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marvin.camerademo_master.MainActivity">
+
+<com.marvin.camerasurfaceview.CameraSurfaceView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sf_camera"
+    app:cameraWidth = "1920"
+    app:cameraHeight = "1080"
+    app:cameraID = "1"
+    />
+
+</RelativeLayout>
